@@ -1,0 +1,87 @@
+<?php
+?>
+<html>
+<title>ScEpiSearch</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="app/css/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="app/js/jquery.min.js"></script>
+<style>
+    body,h1,h2,h3,h4,h5,h6,p {font-family: "Ubuntu", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+<div class="w3-container w3-light-grey w3-padding-32 w3-margin-top">
+    <div class="container w3-margin-top">
+        <div class="jumbotron">
+            <div class="row">
+                    <div class="w3-bar" style="font-size: 18px;color:red">
+				<h3 class="w3-panel w3-padding-4 w3-bar-item">Standalone Version Download</h3>
+		    </div>
+		<div id="a" class="w3-container citys" style="display:block">
+			<h4><strong>Standalone Video:</strong></h4>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HGw5AtpAqH4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+
+		<div class="w3-container">
+			<p style="color:black;">One can use standalone system for querying large cells and Data Privacy concerns. Cross-batch and Cross-species embedding is available in stand-alone version.</p>
+			<p><a href="requirements.txt" download style="color:red">Requirement File</a></p>
+			<p><a href="dependency_installation.docx" download style="color:red">Dependency Installation Readme File</a></p>
+			<p><a href="./standalone/" style="color:red">Download Tool</a></p>
+		<p>Note : For the purpose of security, standalone can be downloaded with id and password.</p>
+			<li>Please request for one by reaching us at <a href="mailto:shreyam@iiitd.ac.in"> shreyam@iiitd.ac.in</a> or <a href="mailto:vibhor@iiitd.ac.in"> vibhor@iiitd.ac.in</a></li>
+		</div>
+		<div class="w3-container">
+			<h3 style="color:red;">Installation</h3>
+			<p>User need to have python >=3.5+ install in their system.
+			   User can install all dependencies for the application using "requirements.txt" file present in the folder and can be downloaded separately from link above.
+			   One can use following command for same :</p>
+				<li>python3 -m pip install --user -r /path_where_project/searchProject/requirements.txt</li>
+	        	<p>User also need to have R installed in their system beforehand. Following packages of R are required :</p>
+				<li>R related packages required : GenomicRanges</li>
+			<p>Rpy2 library used in this project creates a bridge between R and python.</p>
+			<p>In order to install tkinter which provides GUI for the app, user needs to install it using following command :</p>
+				<li>apt-get install python3-tk</li>
+			<p>Finally user can run the application by reaching into the searchProject folder and running following command :</p>
+				<li>"python3 scepisearch.py"</li>
+			<p>If all dependencies work well, user can see the GUI.</p>
+			<p>Note : If user runs into the error "OSError: cannot load library '/home/cell/R/lib/R/lib/libR.so': libBblas.so: 
+shared Cannot open object file: there is no such file or directory "</p>
+				<li>Solution : User needs to add path : export LD_LIBRARY_PATH = "/path-to-R-installation/lib/R/lib:$LD_LIBRARY_PATH" </li>
+
+<br>			<p>If user is executing from location machine, GUI will work fine. Otherwise if user is executing from remote server, X11 forwarding need to be enabled. Deatils of this is available in downloadable readme file above. file </p>			
+		</div>
+                </div>
+        </div>
+    </div>
+</body>
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    function openCitys(evt, cityName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("citys");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " w3-red";
+    }
+</script>
+</html>
