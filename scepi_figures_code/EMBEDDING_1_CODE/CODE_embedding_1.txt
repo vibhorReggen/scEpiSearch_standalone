@@ -15,15 +15,14 @@ adj = np.triu(adj) + np.transpose(np.triu(adj))
 
 import itertools
 ann = []
-l = [np.repeat(1,822),np.repeat(2,1213),np.repeat(3,480),np.repeat(4,1621)]
+l = [np.repeat(1,30),np.repeat(2,30),np.repeat(3,10),np.repeat(4,12),np.repeat(5,11),np.repeat(6,14),np.repeat(7,10),np.repeat(8,10)]
 l = list(itertools.chain(*l))
 for i in range(adj.shape[0]):
     ann.append("D"+str(l[i])+" "+"Q"+str(i))
-	
-import networkx as nx
-G = nx.from_numpy_matrix(np.matrix(adj>8))
+	import networkx as nx
+G = nx.from_numpy_matrix(np.matrix(adj>7))
 # color=colors[clustering.labels_]
-colors = np.array(list(islice(cycle(['#377eb8', '#ff7f00', '#4daf4a','#f781bf', '#a65628', '#984ea3','#999999', '#e41a1c', '#dede00']),int(max(l)+1))))
+colors = np.array(list(islice(cycle(['#984ea3','#a65628','#f781bf','#ff7f00','#4daf4a','#e41a1c','#999999','#dede00']),int(max(l)+1))))
 # add black color for outliers (if any)
 # colors = np.append(colors, ["#000000"])
 color=colors[l]
@@ -33,22 +32,22 @@ labels = {}
 for i,node in enumerate(G.nodes()):
     labels[node] = ann[i]
 
-fig, ax = plt.subplots(figsize=(10,10))
+fig, ax = plt.subplots(figsize=(5,5))
 
-nodes = nx.draw_networkx_nodes(G, pos=pos, ax=ax,node_color=color,cmap=plt.get_cmap('jet'),node_size=2)
+nodes = nx.draw_networkx_nodes(G, pos=pos, ax=ax,node_color=color,cmap=plt.get_cmap('jet'),node_size=30)
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 
-p_1 = mpatches.Patch(color='#ff7f00', label='Human-Neuron')
-p_2 = mpatches.Patch(color='#4daf4a', label='Mouse-Neuron')
-p_3 = mpatches.Patch(color='#f781bf', label='Human-HSC')
-p_4 = mpatches.Patch(color='#a65628', label='Mouse-HSC')
-p_5 = mpatches.Patch(color='#984ea3', label='Human-Myoblast')
+p_1 = mpatches.Patch(color='#a65628', label='Mouse-HSC')
+p_2 = mpatches.Patch(color='#f781bf', label='Human-HSC')
+p_3 = mpatches.Patch(color='#ff7f00', label='Human-Neuron')
+p_4 = mpatches.Patch(color='#4daf4a', label='Mouse-Neuron')
+p_5 = mpatches.Patch(color='#e41a1c', label='Mouse-Bcell')
 p_6 = mpatches.Patch(color='#999999', label='Human-GM')
-p_7 = mpatches.Patch(color='#e41a1c', label='Mouse-Bcell')
-p_8 = mpatches.Patch(color='#dede00', label='Human-GM-Different Batch')
+p_7 = mpatches.Patch(color='#dede00', label='Human-GM-Different Batch')
+p_8 = mpatches.Patch(color='#984ea3', label='Human-Myoblast')
 
-plt.legend(handles=[p_1, p_2,p_3,p_4],fontsize=20)
+plt.legend(handles=[p_1, p_2,p_3,p_4,p_5,p_6,p_7,p_8],fontsize=7)
 # nx.draw_networkx_labels(G, pos, labels, font_size=9)
 # nx.draw_networkx_edges(G, pos=pos, ax=ax)
 
