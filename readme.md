@@ -3,8 +3,8 @@ Studying single cells using epigenome helps in highlighting active and poised re
 Web server : http://reggen.iiitd.edu.in:1207/episearch/<br/>
 Standalone code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles<br/>
 Supplementary Tables & Files : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/
-<br/>
-Link for Data,code,Results of figures : <br />
+<br/><br/>
+Link for Data,code,Results of figures : <br /><br/>
 Figure-1 :<br/>
 Cell-type Query (Human)(Source GEO ID) : URL <br/>
 HL60 (GSE109828): http://reggen.iiitd.edu.in:1207/episearch/?job=-ntlgsuqp4-utvlgmnqx <br/>
@@ -32,7 +32,7 @@ H1ESC (GSE65360) : http://reggen.iiitd.edu.in:1207/episearch/?job=-p880gctre-yhr
 Dataset Location : http://reggen.iiitd.edu.in:1207/episearch/index.php?view=sample_queries <br/>
 <br/>
 Figure-1(G,H) : Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles<br/>
-Dataset : 
+Dataset : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-1(G,H)-data/<br/>
 Result Tables : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/
 <br/><br/>
 Figure-2 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-2-data-code/ <br />
