@@ -3,16 +3,16 @@ Studying single cells using epigenome helps in highlighting active and poised re
 Web server : http://reggen.iiitd.edu.in:1207/episearch/<br/>
 Standalone code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles<br/>
 Supplementary Tables & Files : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/
-
+<br/>
 Link for Data,code,Results of figures : <br />
-Figure-1 :
+Figure-1 :<br/>
 Cell-type Query (Human)(Source GEO ID) : URL <br/>
 HL60 (GSE109828): http://reggen.iiitd.edu.in:1207/episearch/?job=-ntlgsuqp4-utvlgmnqx <br/>
 Myoblast (GSE109828) : http://reggen.iiitd.edu.in:1207/episearch/?job=-ggbqir0do-hlpsn5gn7 , http://reggen.iiitd.edu.in:1207/episearch/?job=-ag5z14ze5-v2xf77zlf <br/>
 GM12878 (GSE109828) : http://reggen.iiitd.edu.in:1207/episearch/?job=-vgptvbeci-dlcdcztlk <br/>
 H1ESC (GSE65360) : http://reggen.iiitd.edu.in:1207/episearch/?job=-206f3vcny-33j40evt3 <br/>
 Neuron (GSE97942) : http://reggen.iiitd.edu.in:1207/episearch/?job=-r9sdpeg5i-pgjxb2nw8 <br/>
-
+<br/>
 Cell-type Query (Mouse)(Source GEO ID) : URL <br/>
 Neuron (GSE111586) : http://reggen.iiitd.edu.in:1207/episearch/?job=-puamhnftl-zkm98ya79 <br/>
 Endothelial (GSE111586) : http://reggen.iiitd.edu.in:1207/episearch/?job=-6n9foszqj-jgs0mmstl <br/>
@@ -21,34 +21,34 @@ Macrophage (GSE111586) : http://reggen.iiitd.edu.in:1207/episearch/?job=-leh9jpj
 NK cell (GSE111586) : http://reggen.iiitd.edu.in:1207/episearch/?job=-dppduwmaj-9d80zgmvf <br/>
 T cell (GSE111586) : http://reggen.iiitd.edu.in:1207/episearch/?job=-l2wb6vhcw-pc84v1q1i <br/>
 HSC-hematopoetic stem cells (GSE111586) : http://reggen.iiitd.edu.in:1207/episearch/?job=-ks5c8qnuc-0q64t7rf1 <br/>
-
+<br/>
 Cell-type Query (Cross-Species)(Source GEO ID) : URL <br/>
 Myoblast (GSE109828) : http://reggen.iiitd.edu.in:1207/episearch/?job=-km4m8sm1n-by3oshify <br/>
 GM12878 (GSE109828) : http://reggen.iiitd.edu.in:1207/episearch/?job=-uhibbslst-d5c8lzijd <br/>
 Neuron (GSE97942) : http://reggen.iiitd.edu.in:1207/episearch/?job=-uuo33h9um-g5bgybhol <br/>
 HL60 (GSE109828) : http://reggen.iiitd.edu.in:1207/episearch/?job=-ljwz1w0ml-whrhfh401 <br/>
 H1ESC (GSE65360) : http://reggen.iiitd.edu.in:1207/episearch/?job=-p880gctre-yhrfim47c <br/>
-
+<br/>
 Dataset Location : http://reggen.iiitd.edu.in:1207/episearch/index.php?view=sample_queries <br/>
-
+<br/>
 Figure-1(G,H) : Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles<br/>
 Dataset : 
 Result Tables : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/
-
+<br/>
 Figure-2 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-2-data-code/ <br />
 Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles , 
-
+<br/>
 Figure-3(a) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE/CODE_embedding_1.txt
-
+<br/>
 Figure-3(b) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_2_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_2_CODE/CODE_embedding_2.txt
-
+<br/>
 Figure-3(c) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_3_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_3_CODE/EMBEDDING_CODE_3.txt
-
+<br/>
 Figure-4 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-4-data-code/<br />
 Code : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-4-data-code/TSNE_cancer_immune_embedding_final.ipynb 
-
+<br/>
 Figure-5 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-5-data-code/ <br />
 Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles , http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-5-data-code/mESC.ipynb
