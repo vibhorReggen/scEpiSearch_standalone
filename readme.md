@@ -10,3 +10,9 @@ code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figur
 
 Figure-3(c) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_3_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_3_CODE/EMBEDDING_CODE_3.txt
+
+Figure-4 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-4-data-code/<br />
+Code : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-4-data-code/TSNE_cancer_immune_embedding_final.ipynb 
+
+Figure-5 Data : 
+Code : 
