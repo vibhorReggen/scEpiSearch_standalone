@@ -5,7 +5,7 @@ Link for Data,code,Results of figures :
 Figure-3(a) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE/CODE_embedding_1.txt
 
-Figure-3(b) Data : 
+Figure-3(b) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_2_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_2_CODE/CODE_embedding_2.txt
 
 Figure-3(c) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_3_CODE <br />
