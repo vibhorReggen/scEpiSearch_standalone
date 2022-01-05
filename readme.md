@@ -1,6 +1,6 @@
 ScEpiSearch : <br/>
 Studying single cells using epigenome helps in highlighting active and poised regulatory regions and mechanisms in cells. With rise in number of single cell epigenome profiles from several organisations, there is potential to use it for many biomedical applications. Hence, ScEpiSearch aims to provide a platform to facilitate a primary step in single cell epigenome analysis. ScEpiSearch allows to search matching cells using single-cell epigenome profile. In current version user can submit single cell open chromatin signal to search existing single-cell RNAseq and single-cell ATACseq profiles and perform some task of analysis. <br/>
-
+Web server : http://reggen.iiitd.edu.in:1207/episearch/<br/>
 Standalone code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles
 
 Link for Data,code,Results of figures : <br />
