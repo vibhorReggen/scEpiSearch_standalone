@@ -1,9 +1,19 @@
 ScEpiSearch : <br/>
 Studying single cells using epigenome helps in highlighting active and poised regulatory regions and mechanisms in cells. With rise in number of single cell epigenome profiles from several organisations, there is potential to use it for many biomedical applications. Hence, ScEpiSearch aims to provide a platform to facilitate a primary step in single cell epigenome analysis. ScEpiSearch allows to search matching cells using single-cell epigenome profile. In current version user can submit single cell open chromatin signal to search existing single-cell RNAseq and single-cell ATACseq profiles and perform some task of analysis. <br/>
 Web server : http://reggen.iiitd.edu.in:1207/episearch/<br/>
-Standalone code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles
+Standalone code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles<br/>
 
 Link for Data,code,Results of figures : <br />
+Figure-1 :
+Cell-type Query (Source GEO ID) : URL <br/>
+HL60 (GSE109828): http://reggen.iiitd.edu.in:1207/episearch/?job=-ntlgsuqp4-utvlgmnqx <br/>
+Myoblast (GSE109828) : http://reggen.iiitd.edu.in:1207/episearch/?job=-ggbqir0do-hlpsn5gn7 , http://reggen.iiitd.edu.in:1207/episearch/?job=-ag5z14ze5-v2xf77zlf <br/>
+GM12878 (GSE109828) : http://reggen.iiitd.edu.in:1207/episearch/?job=-vgptvbeci-dlcdcztlk <br/>
+H1ESC (GSE65360) : http://reggen.iiitd.edu.in:1207/episearch/?job=-206f3vcny-33j40evt3 <br/>
+Neuron (GSE97942) : http://reggen.iiitd.edu.in:1207/episearch/?job=-r9sdpeg5i-pgjxb2nw8 <br/>
+
+
+
 Figure-2 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-2-data-code/ <br />
 Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles , 
 
