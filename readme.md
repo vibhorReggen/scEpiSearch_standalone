@@ -1,6 +1,8 @@
 Standalone code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles
 
 Link for Data,code,Results of figures :
+Figure-2 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-2-data-code/ <br />
+Code : 
 
 Figure-3(a) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE/CODE_embedding_1.txt
