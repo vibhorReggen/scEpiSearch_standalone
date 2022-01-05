@@ -34,21 +34,21 @@ Dataset Location : http://reggen.iiitd.edu.in:1207/episearch/index.php?view=samp
 Figure-1(G,H) : Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles<br/>
 Dataset : 
 Result Tables : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/
-<br/>
+<br/><br/>
 Figure-2 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-2-data-code/ <br />
 Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles , 
-<br/>
+<br/><br/>
 Figure-3(a) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_1_CODE/CODE_embedding_1.txt
-<br/>
+<br/><br/>
 Figure-3(b) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_2_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_2_CODE/CODE_embedding_2.txt
-<br/>
+<br/><br/>
 Figure-3(c) Data : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/scepi_figures_code/Figure-3/EMBEDDING_3_CODE <br />
 code : https://github.com/reggenlab/scEpiSearch_standalone/blob/main/scepi_figures_code/Figure-3/EMBEDDING_3_CODE/EMBEDDING_CODE_3.txt
-<br/>
+<br/><br/>
 Figure-4 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-4-data-code/<br />
 Code : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-4-data-code/TSNE_cancer_immune_embedding_final.ipynb 
-<br/>
+<br/><br/>
 Figure-5 Data : http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-5-data-code/ <br />
 Code : https://github.com/reggenlab/scEpiSearch_standalone/tree/main/pythonfiles , http://192.168.2.225:1207/scepisearch_supplementary_files/scepisearch_supplementary_files/Figure-5-data-code/mESC.ipynb
